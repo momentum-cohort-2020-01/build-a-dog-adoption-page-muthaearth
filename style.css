@@ -1,3 +1,4 @@
+/*Global styles top of page*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,29 +8,88 @@
 
 body {
     font-family: sans-serif;
+    margin: 2rem;
+}
+
+img{
+    max-width: 100%;
 }
 
 /*Check HTML Color Codes here: "https://htmlcolorcodes.com/"*/
 .page-header {
-    background-color: #117b60;
+    background-color: rgb(26	60	115	);
     color: white;
     padding: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
-.nav-link{
-    color: white;
-}
-
-.store-image{
-    width: .50%;
-    margin-bottom: 1rem;
-}
-
-.main{
+.main-dogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
+
+.dogs {
+    width: 30%;
+    display: inline-block;
+}
+
+.dogs-descript{
+    background-color: rgb(191 230 242);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
 .main p{
     margin-bottom: 1rem;
+}
+
+.site-nav li {
+    display: inline;
+    margin: 
+}
+
+.footer-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-box {
+    display: flex;
+    width: 100%;
+    /*height: 300px;
+    align-items: stretch; */
+}
+.footer-img{
+    display: inline-block;
+    height: 300px;
+}
+.overlay {
+    color: white;
+    font-size: 32px;
+    width: 33.33%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.shade{
+    width: 100%;
+    height: 100%;
+    background: rgba(167, 168, 236, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
