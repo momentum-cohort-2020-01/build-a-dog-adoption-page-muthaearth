@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*Check HTML Color Codes here: "https://htmlcolorcodes.com/"*/
+.page-header {
+    background-color: #117b60;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.store-image{
+    width: .50%;
+    margin-bottom: 1rem;
+}
+
+.main{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.main p{
+    margin-bottom: 1rem;
+}
