@@ -24,7 +24,11 @@ img{
     margin-top: 1rem;
 }
 
-.main-dogs{
+.main p{
+    margin-bottom: 1rem;
+}
+
+.animals{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -43,36 +47,28 @@ img{
     border-radius: 5px;
     margin-bottom: 1rem;
     display: inline-block;
-}
 
-.main p{
-    margin-bottom: 1rem;
-}
-
-.site-nav li {
-    display: inline;
-    margin: 
-}
-
-.footer-group{
+/* Pretty sure I need help with this footer options code   */
+.options{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    width: 100%;
+    height: 300px;
+    align-items: stretch;
 }
 
-.footer-box {
-    display: flex;
-    width: 100%;
-    /*height: 300px;
-    align-items: stretch; */
+.option {
+    width: 30%;
+    display: inline-block;
 }
-.footer-img{
+
+.option-img{
     display: inline-block;
     height: 300px;
 }
+
 .overlay {
     color: white;
     font-size: 32px;
@@ -93,3 +89,5 @@ img{
     top: 0;
     left: 0;
 }
+
+
