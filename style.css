@@ -49,46 +49,55 @@ img{
     display: inline-block;
 }
 
-/* Pretty sure I need help with this footer options code   */
-.options{
+.footerLinks{  
+    height: 300px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 1rem;
-    width: 100%;
-    height: 300px;
-    align-items: stretch;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.option {
-    width: 30%;
-    display: inline-block;
-}
-
-.option-img{
-    display: inline-block;
+.linkDonate{
+    background-image: linear-gradient(rgba(167, 168, 236, .5),rgba(30, 9, 110, 0.4)), url("starter_files/images/donate.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
     height: 300px;
 }
+.linkVolunteer{
+    background-image: linear-gradient(rgba(167, 168, 236, .5),rgba(30, 9, 110, 0.4)), url("starter_files/images/volunteer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 300px;
+}
+.linkLocation{
+    background-image: linear-gradient(rgba(167, 168, 236, .5),rgba(30, 9, 110, 0.4)), url("starter_files/images/location.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 300px;
+}
 
-.overlay {
+ .footer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+    margin-top: 4px;
+}
+
+.text{
     color: white;
     font-size: 32px;
-    width: 33.33%;
+    font-weight: bold;
     margin: 0;
     transform: translate(-50%, -50%);
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
 }
-
-.shade{
-    width: 100%;
-    height: 100%;
-    background: rgba(167, 168, 236, .5);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 
