@@ -11,10 +11,6 @@ body {
     margin: 2rem;
 }
 
-img{
-    max-width: 100%;
-}
-
 /*Check HTML Color Codes here: "https://htmlcolorcodes.com/"*/
 .page-header {
     background-color: rgb(26	60	115	);
@@ -24,15 +20,21 @@ img{
     margin-top: 1rem;
 }
 
-.main p{
-    margin-bottom: 1rem;
+
+
+/* Dogs ____________________________________________________________________________________________*/
+
+img {
+    width: 360px;
+    height: 285px;
+    border-radius: 30px;
 }
 
 .animals{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 1rem;
+    padding: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
@@ -42,12 +44,17 @@ img{
     display: inline-block;
 }
 
+.dogs:hover {
+    opacity: 0.6;
+}
+
 .dogs-descript{
     background-color: rgb(191 230 242);
-    border-radius: 5px;
     margin-bottom: 1rem;
     display: inline-block;
 }
+
+/* Footer ____________________________________________________________________________________________*/
 
 .footerLinks{  
     height: 300px;
@@ -87,6 +94,7 @@ img{
     text-align: center;
     justify-content: center; 
     margin-top: 4px;
+    border-radius: 30px;
 }
 
 .text{
